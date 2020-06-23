@@ -25,9 +25,9 @@ $(function () {
                 type: "POST",
                 data: {
                     name: name,
-                    phone: phone,
                     email: email,
-                    message: message,
+                    phone: phone,
+                    message: message
                 },
                 cache: false,
                 success: function () {
@@ -39,7 +39,7 @@ $(function () {
                         )
                         .append("</button>");
                     $("#success > .alert-success").append(
-                        "<strong>Your message has been sent. </strong>"
+                        "<strong>Thank you for showing interest in Rockwall Analytics. We appreciate the attention and hey, we shall reach out to you too. We’re always looking forward to working with the creme de la cremes, the belles of the ball (ie, you, lovely potential clients)\n This email (sent using automation aka robots) is simply to let you know that we have received your message and will be reviewing (and this is done by humans) it shortly. Now! We should be getting back to you within 3 working days, but in case of a delay please feel free to reach out. We don’t bite. ;)\n Now that we’ve lured you in with our poetic prose and piqued your interest, Your struggle with data ends with Rockwall Analytics’s data advisory services </strong>"
                     );
                     $("#success > .alert-success").append("</div>");
                     //clear all fields
