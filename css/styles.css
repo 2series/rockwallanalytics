@@ -10125,7 +10125,7 @@ img::-moz-selection {
   }
   #mainNav.navbar-shrink .navbar-brand svg,
 #mainNav.navbar-shrink .navbar-brand img {
-    height: 1.5rem;
+    height: 3.8rem;
   }
   #mainNav .navbar-nav .nav-item {
     margin-right: 1rem;
@@ -10140,7 +10140,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg.jpg");
+  background-image: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
